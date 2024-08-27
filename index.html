@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIC Flash Card Challenges</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        h2 {
+            text-align: center;
+            width: 100%;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1000px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border-radius: 8px;
+        }
+        .card:hover {
+            background-color: #eaeaea;
+            transform: translateY(-5px);
+        }
+        .card-content {
+            display: none;
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: left;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>10-Minute Challenges</h2>
+<div class="container">
+    <div class="card" onclick="toggleContent(this)">
+        Mashup Madness
+        <div class="card-content">
+            <strong>Task:</strong> Describe CIC as a mashup of 2-3 things that are easily recognizable at a BBQ. The goal is to use familiar reference points to quickly convey the essence of CIC. Think about how Kenneth sold “Gold Case” in 30 Rock. How would you sell CIC as the next big thing?
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Life Stage Metaphor
+        <div class="card-content">
+            <strong>Task:</strong> Compare CIC to another company or celebrity at a particular stage in their journey - the goal is to convey “where we are at right now”. For example, is CIC like Amazon when it was just selling books? Is CIC Apple in Jobs' garage? Are we Simone Biles at the Olympics at the height of her career? How about Bernie Sanders when he was running for president as an underdog?
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Millionaire Windfall
+        <div class="card-content">
+            <strong>Task:</strong> A wealthy benefactor gives CIC $2 million with no strings attached, but you can’t hire staff. How do you spend the money to maximize impact?
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Investor Challenge
+        <div class="card-content">
+            <strong>Task:</strong> The wealthy benefactor decides to invest $2m. They expect you to quadruple CIC's revenue within a year. How do you approach this high-stakes challenge?
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Antimatter
+        <div class="card-content">
+            <strong>Task:</strong> Identify the forces working against CIC. If CIC were an angel, what would be its devil? Describe the opposing forces or challenges.
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Antidote
+        <div class="card-content">
+            <strong>Task:</strong> There are problems and challenges facing our society. Imagine CIC is the antidote - what is the illness or problem we are solving for?
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Money Money Money
+        <div class="card-content">
+            <strong>Task:</strong> How does CIC make money? How does CIC make profit? Explain why commercial growth is important.
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Elevator Pitches - Trading partners
+        <div class="card-content">
+            <strong>Task:</strong> Craft an elevator pitch for trading partners (such as schools, parents, corporates, councils). Tailor the message to their priorities.
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Elevator Pitches - Development partners
+        <div class="card-content">
+            <strong>Task:</strong> Craft an elevator pitch for development partners (investors, philanthropists, government). Tailor the message to their priorities.
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Waves of Change
+        <div class="card-content">
+            <strong>Task:</strong> Identify the societal waves CIC is riding, responding to, or pushing against. Describe the larger trends CIC is part of.
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        10-Word Pitch
+        <div class="card-content">
+            <strong>Task:</strong> Summarize CIC in just 10 words. Make it clear, compelling, and concise. Make it clear who your audience is.
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+        </div>
+    </div>
+    <div class="card" onclick="toggleContent(this)">
+        Learning from the Best
+        <div class="card-content">
+            <strong>Task:</strong> Explore one of the listed websites. What do they do well, and what might CIC learn from how they communicate and describe themselves?
+            <br><strong>Instructions:</strong> 10 mins to think, 3 mins to share, group discussion
+            <ul>
+                <li><strong>Reap Benefit:</strong> Empowers young people to solve civic and environmental issues in their local communities using technology, data, and citizen action. <a href="https://www.reapbenefit.org/tech" target="_blank">Visit Reap Benefit</a></li>
+                <li><strong>Design for Change:</strong> A global movement empowering young people to use design-thinking to solve local problems. <a href="https://www.dfcworld.org/" target="_blank">Visit Design for Change</a></li>
+                <li><strong>Global Youth Service Day (GYSD):</strong> Mobilizes young people to engage in community service projects that address local needs. <a href="https://ysa.org/campaigns/gysd/" target="_blank">Visit GYSD</a></li>
+                <li><strong>DoSomething.org:</strong> A global non-profit empowering young people to take action on social issues, from environmental conservation to social justice. <a href="https://www.dosomething.org/" target="_blank">Visit DoSomething.org</a></li>
+                <li><strong>Roots & Shoots:</strong> Founded by Dr. Jane Goodall, engaging young people in environmental, conservation, and humanitarian projects. <a href="https://www.rootsandshoots.org/" target="_blank">Visit Roots & Shoots</a></li>
+                <li><strong>WE Schools:</strong> Provides educators and students with resources and activities to engage in social justice initiatives. <a href="https://www.we.org/en-us/our-work/we-schools" target="_blank">Visit WE Schools</a></li>
+                <li><strong>Ashoka's Youth Venture:</strong> Supports young changemakers in starting their own social ventures with mentoring and resources. <a
