@@ -11,15 +11,15 @@
             margin: 0;
             padding: 20px;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
         }
         h2 {
             text-align: center;
+            width: 100%;
             color: #333;
             margin-bottom: 20px;
-            width: 100%;
         }
         .container {
             display: grid;
@@ -27,7 +27,7 @@
             gap: 20px;
             width: 100%;
             max-width: 1000px;
-            justify-items: center;
+            margin-bottom: 40px;
         }
         .card {
             background-color: #fff;
@@ -37,7 +37,6 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s ease, transform 0.3s ease;
             border-radius: 8px;
-            width: 100%; /* Ensure cards take full width of grid columns */
         }
         .card:hover {
             background-color: #eaeaea;
@@ -153,10 +152,11 @@
                 <li><strong>Ashoka's Youth Venture:</strong> Supports young changemakers in starting their own social ventures with mentoring and resources. <a href="https://www.ashoka.org/en/program/youth-venture" target="_blank">Visit WE Schools</a></li>
             </ul>
         </div>
-    </div>            
+    </div>      
+</div>
 
-    <h2>5-Minute Challenges</h2>
-    <div class="container">
+<h2>5-Minute Challenges</h2>
+<div class="container">
     <div class="card" onclick="toggleContent(this)">
         Origin Stories
         <div class="card-content">
@@ -236,7 +236,7 @@
     </div>
 </div>
 
-    <script>
+<script>
     function toggleContent(card) {
         const content = card.querySelector('.card-content');
         if (content.style.display === "block") {
@@ -245,7 +245,7 @@
             content.style.display = "block";
         }
     }
-    </script>
+</script>
 
 </body>
 </html>
